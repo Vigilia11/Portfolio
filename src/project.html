@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+<body class="font-sans bg-black">
+    <div class="fixed bg-black min-h-screen w-20 transform -translate-x-full sm:translate-x-0 ease-out duration-150 z-30" id="aside">
+        <div class="relative w-full h-full">
+            <button type="button" class="absolute sm:hidden top-[50%] -right-7 hover:bg-gray-300 opacity-90 py-1" onclick="toggelNavigation()">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 rotate-90">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                  </svg>                      
+            </button>
+            <div class="text-gray-400 text-sm">
+                <h1 class="tracking-wider -rotate-90 py-12  uppercase hover:text-gray-300"><a href="index.html">home</a></h1>
+                <h1 class="tracking-wider -rotate-90 py-12  uppercase hover:text-gray-300"><a href="about.html">about</a></h1>
+                <h1 class="tracking-wider -rotate-90 py-12 uppercase text-white">project</h1>
+                <h1 class="tracking-wider -rotate-90 py-12  uppercase hover:text-gray-300"><a href="work.html">work</a></h1>
+                <h1 class="tracking-wider -rotate-90 py-12  uppercase hover:text-gray-300"><a href="contact.html">contact</a></h1>
+            </div>
+        </div>
+    </div>
+    <div class="w-full sm:ps-20">
+        <div class="">
+            <div class="w-full sm:grid sm:grid-cols-2">
+                <div class="">
+                    <div class="w-full h-screen bg-white flex items-center justify-center">
+                        <div class="max-w-7xl flex items-end">
+                            <div>
+                                <h1 class="text-xl sm:text-2xl font-semibold text-black text-center">MY</h1>
+                                <h1 class="text-5xl sm:text-7xl font-semibold text-black text-center">PROJECTS</h1>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="py-20 px-12 h-screen flex items-center">
+                    <div class="w-full space-y-7 text-center">
+                        <a href="./isfhs.html" class="block text-gray-400 hover:text-gray-200 tracking-wide">ISFHS</a>
+                        <a href="vibechat.html" class="block text-gray-400 hover:text-gray-200 tracking-wide">Vibechat</a>
+                        <a href="foodelight.html" class="block text-gray-400 hover:text-gray-200 tracking-wide">Foodelight</a>
+                        <a href="shophere.html" class="block text-gray-400 hover:text-gray-200 tracking-wide">Shophere</a>
+                        <a href="pos.html" class="block text-gray-400 hover:text-gray-200 tracking-wide">Point of Sale</a>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/aside.js" defer></script>
+</body>
+</html>

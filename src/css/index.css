@@ -1,0 +1,19 @@
+.triangle-1{
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+}
+
+.triangle-2{
+    clip-path: polygon(100% 0, 100% 100%, 0 100%);
+}
+
+.laravel{
+    text-shadow: -1px -1px 0 #d1d5db, 1px -1px 0 #d1d5db, -1px 1px 0 #d1d5db, 1px 1px 0 #d1d5db;
+}
+
+.text-outline-gray{
+    text-shadow: -1px -1px 0 #d1d5db, 1px -1px 0 #d1d5db, -1px 1px 0 #d1d5db, 1px 1px 0 #d1d5db;
+}
+
+.text-outline-red{
+    text-shadow: -1px -1px 0 #7c3aed, 1px -1px 0 #7c3aed, -1px 1px 0 #7c3aed, 1px 1px 0 #7c3aed;
+}

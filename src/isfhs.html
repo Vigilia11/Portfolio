@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+<body class="font-sans bg-black">
+    <div class="fixed bg-black min-h-screen w-20 transform -translate-x-full sm:translate-x-0 ease-out duration-150 z-30" id="aside">
+        <div class="relative w-full h-full">
+            <button type="button" class="absolute sm:hidden top-[50%] -right-7 hover:bg-gray-300 opacity-90 py-1" onclick="toggelNavigation()">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 rotate-90">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                  </svg>                      
+            </button>
+            <div class="text-gray-400 text-sm">
+                <h1 class="tracking-wider -rotate-90 py-12  uppercase hover:text-gray-300"><a href="index.html">home</a></h1>
+                <h1 class="tracking-wider -rotate-90 py-12  uppercase hover:text-gray-300"><a href="about.html">about</a></h1>
+                <h1 class="tracking-wider -rotate-90 py-12 uppercase text-white"><a href="project.html">project</a></h1>
+                <h1 class="tracking-wider -rotate-90 py-12  uppercase hover:text-gray-300"><a href="work.html">work</a></h1>
+                <h1 class="tracking-wider -rotate-90 py-12  uppercase hover:text-gray-300"><a href="contact.html">contact</a></h1>
+            </div>
+        </div>
+    </div>
+    <div class="w-full sm:ps-20">
+        <div class="">
+            <div class="w-full sm:grid sm:grid-cols-2">
+                <div class="">
+                    <div class="w-full min-h-screen bg-white flex items-center justify-center px-2 sm:px-0">
+                        <img src="./images/projects/isfh.png" class="w-full sm:w-[420px]" alt="">                   
+                    </div>
+                </div>
+                <div class="p-4 sm:p-7 min-h-screen">
+                    <h1 class="text-4xl text-white font-semibold">Information System on Foods and Housing Services</h1>
+                    <p class="text-gray-400 mt-5 text-sm">
+                        ISFHS is an information system about Foods and Housing around NEUST Sumacab Campus, Cababatuan Nueva Ecija.
+                    </p>
+                    <p class="text-gray-400 mt-5 text-sm">
+                        4th year capstone project.
+                    </p>
+                    <div class="mt-5">
+                        <h1 class="text-gray-300">Functions</h1>
+                        <ul class="text-gray-400 text-sm list-disc ps-5">
+                            <li>User login</li>
+                            <li>2 types of user registration - Students and Facilitator</li>
+                            <li>Rate and Reviews</li>
+                            <li>Facilitator can create, update and delete its own facility</li>
+                        </ul>
+                    </div>
+                    <div class="mt-5">
+                        <h1 class="text-gray-300">Programming languages and Frameworks</h1>
+                        <ul class="text-gray-400 text-sm list-disc ps-5">
+                            <li>Laravel</li>
+                            <li>Bootstrap</li>
+                            <li>Javascript, Jquery and Ajax</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/aside.js" defer></script>
+</body>
+</html>

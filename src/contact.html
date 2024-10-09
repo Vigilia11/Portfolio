@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+<body class="font-sans bg-black">
+    <div class="fixed bg-black min-h-screen w-20 transform -translate-x-full sm:translate-x-0 ease-out duration-150 z-30" id="aside">
+        <div class="relative w-full h-full">
+            <button type="button" class="absolute sm:hidden top-[50%] -right-7 hover:bg-gray-300 opacity-90 py-1" onclick="toggelNavigation()">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 rotate-90">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                  </svg>                      
+            </button>
+            <div class="text-gray-400 text-sm">
+                <h1 class="tracking-wider -rotate-90 py-12  uppercase hover:text-gray-300"><a href="index.html">home</a></h1>
+                <h1 class="tracking-wider -rotate-90 py-12  uppercase hover:text-gray-300"><a href="about.html">about</a></h1>
+                <h1 class="tracking-wider -rotate-90 py-12  uppercase hover:text-gray-300"><a href="project.html">project</a></h1>
+                <h1 class="tracking-wider -rotate-90 py-12  uppercase hover:text-gray-300"><a href="work.html">work</a></h1>
+                <h1 class="tracking-wider -rotate-90 py-12 uppercase text-white">contact</h1>
+            </div>
+        </div>
+    </div>
+    <div class="w-full sm:ps-20">
+        <div class="">
+            <div class="w-full min-h-screen flex items-center">
+                <div class="w-full">
+                    <h1 class="text-6xl sm:text-[150px] text-white font-thin text-center">CONTACT</h1>
+                    <div class="mt-7 w-full">
+                        <ul class="flex flex-wrap justify-center space-x-7 text-sm sm:text-base tracking-wider text-gray-400">
+                            <li class="mb-3"><a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrgCldLSjXXQFLbJXNDjzXKMmnkcRkzlZmzbvrPmWHqnDHCTlPcKsXlRKPZPKQnQFTjKgB" target="_blank" class="hover:text-gray-300">Gmail</a></li>
+                            <li class="mb-3"><a href="https://www.linkedin.com/in/paul-john-vigilia-877885323/" target="_blank" class="hover:text-gray-300">Linkedin</a></li>
+                            <li class="mb-3"><a href="https://github.com/PJ-Vigilia" target="_blank" class="hover:text-gray-300">Github</a></li>
+                            <li class="mb-3"><a href="https://www.facebook.com/profile.php?id=100093697051826" target="_blank" class="hover:text-gray-300">Facebook</a></li>
+                            <li class="mb-3"><a href="https://www.instagram.com/direct/t/116017019788411/" target="_blank" class="hover:text-gray-300">Instagram</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/aside.js" defer></script>
+</body>
+</html>
