@@ -1,3 +1,18 @@
 .text-shadow-gray{
-    text-shadow: -1px -1px 0 #9ca3af, 1px -1px 0 #9ca3af, -1px 1px 0 #9ca3af, 1px 1px 0 #9ca3af;
+    text-shadow: -1px -1px 0 #1d4ed8, 1px -1px 0 #1d4ed8, -1px 1px 0 #1d4ed8, 1px 1px 0 #1d4ed8;
 }
+
+.img-container{
+    box-shadow: -4px -4px 0 #1d4ed8, 4px -4px 0 #1d4ed8, -4px 4px 0 #1d4ed8, 4px 4px 0 #1d4ed8;
+}
+
+.about{
+    opacity: 0;
+    animation: show 1s forwards;
+}
+
+@keyframes show{
+    from{ opacity: 0; }
+    to{ opacity: 1; }
+}
+

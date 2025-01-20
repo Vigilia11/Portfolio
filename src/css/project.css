@@ -1,0 +1,33 @@
+.isfhs {
+    color: black;
+    animation: fadeIn forwards 1s;
+    animation-delay: 1s;
+}
+
+.vibechat {
+    color: black;
+    animation: fadeIn forwards 1s;
+    animation-delay: 2s;
+}
+.foodelight {
+    color: black;
+    animation: fadeIn forwards 1s;
+    animation-delay: 3s;
+}
+.shophere {
+    color: black;
+    animation: fadeIn forwards 1s;
+    animation-delay: 4s;
+}
+
+.pos {
+    color: black;
+    animation: fadeIn forwards 1s;
+    animation-delay: 5s;
+}
+
+@keyframes fadeIn {
+    0% { color: black; }
+    50% { color: white; }
+    100% { color: #9ca3af; }
+}

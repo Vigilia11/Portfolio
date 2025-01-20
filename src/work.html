@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
-  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/work.css">
 </head>
 <body class="font-sans bg-black">
     <div class="fixed bg-black min-h-screen w-20 transform -translate-x-full sm:translate-x-0 ease-out duration-150 z-30" id="aside">
@@ -24,35 +24,48 @@
         </div>
     </div>
     <div class="w-full sm:ps-20">
-        <div class="">
-            <div class="w-full sm:grid sm:grid-cols-2">
-                <div class="">                    
-                    <div class="w-full h-screen bg-white pt-12">
-                        <div class="w-full">
-                            <h1 class="text-7xl text-center font-semibold text-black">WORK</h1>
-                        </div>
-                        <h1 class="text-sm text-gray-800 text-center sm:font-medium mt-3">Relative</h1>
-                        <ul class="mt-20 text-sm text-gray-800 sm:font-medium text-center space-y-3">
-                            <li class="text-red-600 font-medium">WEB DEVELOPER</li>
-                            <li>Philippine Rice Research Institute - PhilRice</li>
-                            <li>Muñoz, Nueva Ecija</li>
-                            <li>2020</li>
-                        </ul>   
+        <div class="w-full h-screen relative bg-white px-4">
+            <div class="w-full h-full relative z-10 bg-white overflow-hidden">
+                <div class="w-full h-36 relative overflow-hidden">
+                    <h1 class="absolute text-[100px] text-black font-bold work">WORK</h1>
+                </div>
+                <div class="w-96 border-s border-t border-gray-400 p-4 work-1">
+                    <ul class="text-sm text-black tracking-wide text-start space-y-3">
+                        <li class="text-lime-600 font-medium">WEB DEVELOPER</li>
+                        <li>Philippine Rice Research Institute - PhilRice</li>
+                        <li>Muñoz, Nueva Ecija</li>
+                        <li>2020</li>
+                    </ul>
+                </div>
+                <div class="absolute w-[228px] h-12 -rotate-[45deg] relevant-container overflow-hidden">
+                    <div class="w-full h-full relative">
+                        <h1 class="absolute text-end text-black text-5xl font-thin tracking-wider leading-[42px] relevant">RELEVANT</h1>
                     </div>
                 </div>
-                <div>
-                    <div class="w-full h-screen pt-12">
-                        <div class="w-full">
-                            <h1 class="text-5xl sm:text-7xl text-center font-semibold text-white">EXPERIENCE</h1>
+            </div>
+            <div class="black-container absolute top-0 right-0 w-full h-full bg-black z-20 overflow-hidden">
+                <div class="relative h-full z-30">
+                    <div class="absolute w-[154px] h-12 -rotate-[45deg] other-container overflow-hidden">
+                        <div class="w-full h-full relative">
+                            <h1 class="absolute text-white font-thin text-5xl tracking-wider leading-[40px] other">OTHER</h1>
                         </div>
-                        <h1 class="text-sm text-gray-200 text-center sm:font-medium mt-3">Other</h1>
-                        <ul class="mt-20 text-sm text-gray-300 sm:font-medium text-center space-y-3">
-                            <li class="text-lime-600 font-medium">FACTORY WORKER</li>
-                            <li>Universal Robina Corporation - URC</li>
-                            <li>San Miguel, Tarlac</li>
-                            <li>2015</li>
-                        </ul>                
                     </div>
+                    <h1 class="absolute bg-black w-80 text-center text-white font-thin text-5xl tracking-wider -rotate-[44deg] other hidden">OTHER</h1>
+                    <div class="absolute bottom-0 right-0 px-4">
+                        <div class="w-full flex justify-end">
+                            <div class="w-96 border-e border-b border-gray-600 p-4 work-2">
+                                <ul class="text-sm text-white tracking-wide text-end space-y-3">
+                                    <li class="text-lime-600 font-medium">FACTORY WORKER</li>
+                                    <li>Universal Robina Corporation - URC</li>
+                                    <li>San Miguel, Tarlac</li>
+                                    <li>2015</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="w-full h-36 relative">
+                            <h1 class="absolute text-[100px] text-white font-semibold experience">EXPERIENCE</h1>
+                        </div>
+                    </div>                    
                 </div>
             </div>
         </div>

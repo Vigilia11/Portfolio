@@ -1,0 +1,72 @@
+.work{
+    left: -100%;
+    animation: work 1s forwards;
+}
+
+@keyframes work{
+    from{ left: -100%; }
+    to{ left: 0%; }
+}
+
+.experience{
+    right: -148%;
+    animation: experience 1s forwards;
+    animation-delay: 1.5s;
+}
+
+@keyframes experience{
+    from{ right: -148%; }
+    to{ right: 0%; }
+}
+
+.black-container{
+    clip-path: polygon(75% 0%, 100% 0%, 100% 100%, 25% 100%);
+    /*clip-path: polygon(30% 0%, 100% 0%, 100% 100%, 70% 100%);*/
+    /*clip-path: polygon(0% 98%, 25% 98%, 75% 2%, 100% 2%, 100% 100%, 0% 100%);*/
+    /*clip-path: polygon(0% 98%, 25% 98%, 75% 2%, 100% 2%, 100% 100%, 0% 100%);*/
+}
+
+.relevant-container{
+    bottom: 245px;
+    left: 428px;
+}
+    
+.other-container{
+    top: 247px;
+    right: 483px;
+}
+
+.relevant{
+    left: 100%;
+    animation: relevant 1s forwards;
+    animation-delay: 5s;
+}
+
+@keyframes relevant{
+    from{ left: 100% }
+    to { left: 0%; }
+}
+
+.other{
+    right: 100%;
+    animation: other 1s forwards;
+    animation-delay: 5s;
+}
+
+@keyframes other{
+    from{ right: 100% }
+    to { right: 0%; }
+}
+
+.work-1, .work-2{
+    opacity: 0;
+    animation: workShow 1s forwards;
+    animation-delay: 3s;
+}
+
+
+
+@keyframes workShow{
+    from{ opacity: 0; }
+    to{ opacity: 1; }
+}
